@@ -10,7 +10,7 @@ subMetering1 <- as.numeric(HPC.date$Sub_metering_1)
 subMetering2 <- as.numeric(HPC.date$Sub_metering_2)
 subMetering3 <- as.numeric(HPC.date$Sub_metering_3)
 
-png("plot4.png")
+png("Plot4.png")
 par(mfrow = c(2, 2)) 
 
 plot(HPC.datatime, globalActivePower, type="l", xlab="", ylab="Global Active Power", cex=0.2)
